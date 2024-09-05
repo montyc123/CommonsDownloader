@@ -37,4 +37,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest
+        pyte
+
+        
+[![Python package](https://github.com/montyc123/CommonsDownloader/actions/workflows/.python-package.yml/badge.svg)](https://github.com/montyc123/CommonsDownloader/actions/workflows/.python-package.yml)
